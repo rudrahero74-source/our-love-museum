@@ -33,9 +33,8 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-            - name: Set up Android
-        uses: 
-        android-actions/setup-android@v4
+      - name: Set up Android
+        uses: android-actions/setup-android@v4
         with:
           accept-android-sdk-licenses: 'true'
           log-accepted-android-sdk-licenses: 'false'
